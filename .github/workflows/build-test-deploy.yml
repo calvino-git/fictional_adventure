@@ -41,7 +41,7 @@ jobs:
       - name: Checkout the change
         uses: actions/checkout@v4
         with:
-          token: ${{secrets.GITHB_TOKEN}}
+          token: ${{secrets.GITHUB_TOKEN}}
       - name: configure github pages
         uses: actions/configure-pages@v4
         with:
