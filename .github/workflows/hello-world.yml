@@ -9,6 +9,6 @@ jobs:
     steps:
       - name: Checkout the change in the repo
         uses: actions/checkout@v4
-      - run: echo $"(cat hello_world.txt)"
+      - run: echo "$(cat hello_world.txt)"
         
   
