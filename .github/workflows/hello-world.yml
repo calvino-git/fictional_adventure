@@ -1,0 +1,14 @@
+name: hello-world
+on:
+  push
+    
+jobs:
+  my-1st-job:
+    name: Printing Hello World!
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout the change in the repo
+        uses: actions/checkout@4
+      - run: echo ${(cat hello_world.txt)}
+        
+  
