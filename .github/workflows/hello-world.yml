@@ -8,7 +8,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout the change in the repo
-        uses: actions/checkout@4
+        uses: actions/checkout@v4
       - run: echo ${(cat hello_world.txt)}
         
   
